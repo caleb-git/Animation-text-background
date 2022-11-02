@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 250);
+}
+
+h2{
+    font-size: 120px;
+    background: url(./fondo.jpeg);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fondo 20s linear infinite;
+
+}
+
+@keyframes fondo{
+    from{background-position: 0 0;}
+    to{background-position: 100% 100%;}
+}
